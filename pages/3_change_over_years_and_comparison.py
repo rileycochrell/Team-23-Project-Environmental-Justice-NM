@@ -66,7 +66,7 @@ def normalize_county_names(df):
 
 @st.cache_data
 def load_data_for_year(year: str):
-    base = "https://github.com/rileycochrell/rc-EJI-Visualization-NM-3try/raw/refs/heads/main/data"
+    base = "https://github.com/rileycochrell/Team-23-Project-Environmental-Justice-NM/raw/refs/heads/main/data"
     state_path = f"{base}/{year}/clean/{year}EJI_StateAverages_RPL.csv"
     county_path = f"{base}/{year}/clean/{year}EJI_NewMexico_CountyMeans.csv"
     return pd.read_csv(state_path), pd.read_csv(county_path)
