@@ -67,7 +67,7 @@ def load_data_for_year(year: str):
     """Load the state and county CSVs for the given year.
        NOTE: GitHub repo path updated from ...-2try -> ...-3try per your request.
     """
-    base = "https://github.com/rileycochrell/rc-EJI-Visualization-NM-3try/raw/refs/heads/main/data"
+    base = "https://github.com/rileycochrell/Team-23-Project-Environmental-Justice-NM/raw/refs/heads/main/data"
     # default paths (must exist in your repo)
     state_path = f"{base}/{year}/clean/{year}EJI_StateAverages_RPL.csv"
     county_path = f"{base}/{year}/clean/{year}EJI_NewMexico_CountyMeans.csv"
