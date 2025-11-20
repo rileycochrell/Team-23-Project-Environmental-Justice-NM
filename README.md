@@ -1,5 +1,5 @@
 
-## Eng220GroupProject
+## Team-23-Project-Environmental-Justice-NM
 
 # 🌎 Environmental Justice Index Visualization (New Mexico)
 #### A regional comparison of environmental, social, and health vulnerability indicators using the CDC EJI.
