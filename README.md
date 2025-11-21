@@ -4,7 +4,7 @@
 # 🌎 Environmental Justice Index Visualization (New Mexico)
 #### A regional comparison of environmental, social, and health vulnerability indicators using the CDC EJI.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rc-eji-visualization-nm-2try-dkymi6wuyrez96rtc6amzb.streamlit.app/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://team-23-project-environmental-justice-nm-wq2jwudwwcpbvtauwbram.streamlit.app/What_Goes_Into_EJI)
 
 
 ## Abstract
@@ -32,17 +32,11 @@ We’ll double check our work to make sure the numbers and graphs are correct. T
 Finally, we’ll show what we found and explain what it means for New Mexico. We’ll talk about how pollution and old uranium mining (or other things like trinity test site radiation) still affect some communities and how this data can help make fairer environmental decisions.
 
 ## Team Member Contributions
-#### Elijah Rose(PM):  
-My task was to manage the github repository and help to find the data we used for this project. in addition, as the PM of the group it is my responsibility to ensure that all of the necessary steps in the project are completed before the deadline.
+#### Riley Cochrell (PM):  
+I created a rough plan of approach for the project, researched the dataset, and did data cleaning/preprocessing for the app. I also wrote the basic data comparison analysis code and accompanying visualizations, managed the GitHub repositories, and built the Streamlit application.
 
 #### Noah Henry:  
 My task was to draft the project abstract to define the purpose of the project
-
-#### Riley Cochrell:  
-I created a rough plan of approach for the project and will be doing data cleaning and processing, Github workflow management, and helping others where needed.
-
-#### Josh Pierce:  
-
 
 #### Luke Bennet:  
 I helped create the plan for the project and will be cleaing and preparing the data we'll be using.
