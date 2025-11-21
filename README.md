@@ -17,8 +17,6 @@ For this research, we will use the Centers for Disease Control and Prevention’
 
 Raw Dataset: https://www.atsdr.cdc.gov/place-health/php/eji/eji-data-download.html
 
-Data Justification: https://atsdr.cdc.gov/place-health/media/pdfs/2024/10/EJI_2024_Technical_Documentation.pdf
-
 ## Plan of Approach
 ### Step 1: Find and Understand the Data
 We will use the Environmental Justice Index (EJI) from the CDC. It includes data about pollution, health, and income levels. We’ll focus on New Mexico, especially areas with low-income communities, and analyze what each part of the dataset means.
@@ -40,10 +38,10 @@ Finally, we’ll show what we found and explain what it means for New Mexico. We
 I created a rough plan of approach for the project, researched the dataset, and did data cleaning/preprocessing for the app. I also wrote the basic data comparison analysis code and accompanying visualizations, managed the GitHub repositories, and built the Streamlit application.
 
 #### Noah Henry:  
-My task was to draft the project abstract to define the purpose of the project
+My task was to draft the project abstract to define the purpose of the project, provided a function to test the data collected to prove the abstract correct that New Mexico is more environmental burden than others. Added fixes to code where needed to allow streamlit to function properly. Helped clean datasets and streamlit application. Worked on slideshow and edited video.  
 
 #### Luke Bennet:  
 I helped create the plan for the project and will be cleaing and preparing the data we'll be using.
 
 ## Conclusion
-This project was created to bring the issues caused by environmental factors that are faced by different lower income communities to light. we want to bring the problem of environmental justice to the attention of the reader. to accomplish this, we found a dataset from the CDC which contains relevant information on this topic. we hope to be able to use this data to show how lower income communities are affected by environmental changes disproportionately as compared to higher income communities.
+The project design and implemented successfully demonstrated that environmental injustices in New Mexico is worse than in other states proven by two years of data clean for this project. The data is verified and trusted, as it was the CDC Environmental Justice Index. The data was shown by social vulnerability and environmental burdern. Two main takes ways from this project is low income communities face higher burdens than wealthier and the gap is widening as shown from 2022 to 2024.
