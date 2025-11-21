@@ -4,7 +4,7 @@
 # 🌎 Environmental Justice Index Visualization (New Mexico)
 #### A regional comparison of environmental, social, and health vulnerability indicators using the CDC EJI.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://team-23-project-environmental-justice-nm-wq2jwudwwcpbvtauwbram.streamlit.app/What_Goes_Into_EJI)
+[![Open in Streamlit](pictures/Most_Glorious_logo.png)](https://team-23-project-environmental-justice-nm-wq2jwudwwcpbvtauwbram.streamlit.app/What_Goes_Into_EJI)
 
 
 ## Abstract
