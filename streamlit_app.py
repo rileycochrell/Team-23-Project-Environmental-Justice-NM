@@ -71,10 +71,12 @@ def load_data_for_year(year: str):
     # default paths (must exist in your repo)
     state_path = f"{base}/{year}/clean/{year}EJI_StateAverages_RPL.csv"
     county_path = f"{base}/{year}/clean/{year}EJI_NewMexico_CountyMeans.csv"
+# Noah- 1 line
     tract_path = f"{base}/{year}/raw/{year}EJI_NM_TRACTS.csv"
     
     state_df = pd.read_csv(state_path)
     county_df = pd.read_csv(county_path)
+# Noah- 2 lines
     tract_df = pd.read_csv(tract_path, dtype={'GEOID': str, 'TRACT_FIPS': str})
     
     return state_df, county_df, tract_df
@@ -390,6 +392,8 @@ def plot_comparison(data1, data2, label1, label2):
 
     st.plotly_chart(fig, width='stretch')
     st.caption("_Note: darker bars represent the first dataset; lighter bars represent the second dataset._")
+
+# Noah- 17 lines (whole function)
 def run_test(df, group_column, target_column, threshold=0.75):
     """Classifies tracts based on the Socioeconomic Vulnerability and performs T-test."""
     df = df[df[target_column] >= 0]
@@ -417,6 +421,7 @@ st.info("""
 Lower EJI values (closer to 0) indicate *lower cumulative environmental and social burdens* — generally a good outcome.  
 Higher EJI values (closer to 1) indicate *higher cumulative burdens and vulnerabilities* — generally a worse outcome.
 """)
+# Noah- 1 line
 st.write("Use the dropdowns below to explore data for **New Mexico** or specific **counties**, or view the final **Test** results.")
 st.info("🔴 Cells highlighted in red represent areas with **Very High Concern/Burden (EJI ≥ 0.76)**.")
 # ------------------------------
@@ -461,6 +466,7 @@ county_df.rename(columns=rename_map, inplace=True)
 
 # Normalize county names
 
+# Noah- 10 lines
 if 'RPL_EJI' not in tract_df.columns:
     tract_df.rename(columns={
         "RPL_THEME_EJI": "RPL_EJI",
@@ -480,6 +486,7 @@ for m in OPTIONAL_METRICS:
 counties = sorted(county_df["County"].dropna().unique())
 states = sorted(state_df["State"].dropna().unique())
 
+# Noah- 1 line
 parameter1 = ["New Mexico", "County", "Test"]
 
 st.caption("Note: If a state or county does not appear in the dropdown, it means the CDC dataset for the selected year did not include data for that location.")
@@ -542,6 +549,7 @@ elif selected_parameter == "New Mexico":
                 if not comp_row.empty:
                     comp_values = comp_row.iloc[0]
                     plot_comparison(nm_values, comp_values, "New Mexico", comp_county)
+# Noah- 39 lines
 else:
     st.subheader("🔬 Statistical Test: Low-Income vs. Other Tracts")
     st.markdown("""
