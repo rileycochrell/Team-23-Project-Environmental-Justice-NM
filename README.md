@@ -41,7 +41,6 @@ I created a rough plan of approach for the project, researched the dataset, and 
 My task was to draft the project abstract to define the purpose of the project, provided a function to test the data collected to prove the abstract correct that New Mexico is more environmental burden than others. Added fixes to code where needed to allow streamlit to function properly. Helped clean datasets and streamlit application. Worked on slideshow and edited video.  
 
 #### Luke Bennet:  
-I helped create the plan for the project and will be cleaing and preparing the data we'll be using.
-
+I helped develop the project plan, selected the most suitable dataset, contributed to the slideshow design, and conducted the statistical analysis used in our final report.
 ## Conclusion
 The project design and implemented successfully demonstrated that environmental injustices in New Mexico is worse than in other states proven by two years of data clean for this project. The data is verified and trusted, as it was the CDC Environmental Justice Index. The data was shown by social vulnerability and environmental burdern. Two main takes ways from this project is low income communities face higher burdens than wealthier and the gap is widening as shown from 2022 to 2024.
